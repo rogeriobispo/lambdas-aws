@@ -1,0 +1,26 @@
+{
+  "name": "thumbnail-handler",
+  "version": "1.0.0",
+  "description": "nano service to handle images and generate thumbs to it.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriobispo/lambda-thumbnail-handler.git"
+  },
+  "author": "rogerio bispo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogeriobispo/lambda-thumbnail-handler/issues"
+  },
+  "homepage": "https://github.com/rogeriobispo/lambda-thumbnail-handler#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.481.0"
+  },
+  "dependencies": {
+    "jimp": "^0.6.4",
+    "serverless": "^1.46.1"
+  }
+}

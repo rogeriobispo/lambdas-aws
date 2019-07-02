@@ -1,0 +1,29 @@
+{
+  "name": "http-handler",
+  "version": "1.0.0",
+  "description": "nanoservice que salva imagens",
+  "main": "handler.js",
+  "dependencies": {
+    "@types/uuid": "^3.4.4",
+    "aws-sdk": "^2.480.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "serverless": "^1.45.1",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-offline": "^5.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriobispo/lambda-aws-image-to-s3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogeriobispo/lambda-aws-image-to-s3/issues"
+  },
+  "homepage": "https://github.com/rogeriobispo/lambda-aws-image-to-s3#readme"
+}
