@@ -1,0 +1,13 @@
+
+service: filter-handler
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  role: arn:aws:iam::015910244677:role/lambda-sqs-s3 
+
+functions:
+  filter:
+    handler: handler.filter
+    events:
+      - sns: arn:aws:sns:us-east-1:015910244677:s3-nanoservices-imagens-put-topic
