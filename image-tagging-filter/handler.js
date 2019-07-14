@@ -1,13 +1,15 @@
 'use strict';
-const aws = require('aws-sdk');
+const AWS = require('aws-sdk');
 
-AWS.Config({
+AWS.config.update({
   region: 'us-east-1'
 });
 const rekognition = new AWS.Rekognition();
 
 module.exports.tag = async (event) => {
   const s3Info = JSON.parse(event.Records[0].Sns.Message);
+  console.log(event);
+  console.log(s3Info);
   const bucket = s3Info.Records[0].s3.bucket.name;
   const key = s3Info.Records[0].s3.object.key;
   const data = await new Promise((res, rej) => {
