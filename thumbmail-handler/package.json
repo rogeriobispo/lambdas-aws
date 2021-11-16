@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/rogeriobispo/lambda-thumbnail-handler#readme",
   "devDependencies": {
-    "aws-sdk": "^2.481.0"
+    "aws-sdk": "^2.814.0"
   },
   "dependencies": {
     "jimp": "^0.6.4",
