@@ -5,7 +5,7 @@
   "main": "handler.js",
   "dependencies": {
     "@types/uuid": "^3.4.4",
-    "aws-sdk": "^2.480.0",
+    "aws-sdk": "^2.814.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
